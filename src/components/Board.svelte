@@ -1,11 +1,3 @@
-<script lang="ts">
-	import Board from '../components/Board.svelte';
-</script>
-
-<svelte:head>
-	<title>Monopoly</title>
-</svelte:head>
-
 <div class="container">
 	<div class="grid grid-cols-11 gap-2">
 		<div class="bg-gray-700 text-white">GO</div>
@@ -31,7 +23,7 @@
 		<div class="bg-white" />
 		<div class="bg-yellow-500 text-white">Connecticut Avenue</div>
 
-		<div class="bg-yellow-500 text-white">Connecticut Avenue</div>
+    <div class="bg-yellow-500 text-white">Connecticut Avenue</div>
 		<div class="bg-white" />
 		<div class="bg-white" />
 		<div class="bg-white" />
@@ -43,7 +35,7 @@
 		<div class="bg-white" />
 		<div class="bg-yellow-500 text-white">Connecticut Avenue</div>
 
-		<div class="bg-yellow-500 text-white">Connecticut Avenue</div>
+    <div class="bg-yellow-500 text-white">Connecticut Avenue</div>
 		<div class="bg-white" />
 		<div class="bg-white" />
 		<div class="bg-white" />
@@ -54,44 +46,8 @@
 		<div class="bg-white" />
 		<div class="bg-white" />
 		<div class="bg-yellow-500 text-white">Connecticut Avenue</div>
-
-		<div class="bg-yellow-500 text-white">Connecticut Avenue</div>
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-yellow-500 text-white">Connecticut Avenue</div>
-
-		<div class="bg-yellow-500 text-white">Connecticut Avenue</div>
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-yellow-500 text-white">Connecticut Avenue</div>
-
-		<div class="bg-yellow-500 text-white">Connecticut Avenue</div>
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-white" />
-		<div class="bg-yellow-500 text-white">Connecticut Avenue</div>
-
-		<div class="bg-gray-700 text-white">GO</div>
+		
+    <div class="bg-gray-700 text-white">GO</div>
 		<div class="bg-blue-500 text-white">Mediterranean Avenue</div>
 		<div class="bg-gray-400" />
 		<div class="bg-blue-500 text-white">Baltic Avenue</div>
