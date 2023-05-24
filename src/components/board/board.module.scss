@@ -1,0 +1,76 @@
+.board {
+    display: grid;
+    grid-template-areas:
+        "start top jail"
+        "left center right"
+        "gotojail bottom sleep";
+    height: fit-content;
+    position: relative;
+    width: fit-content;
+}
+
+.start {
+    border-top-left-radius: 0.5em;
+    grid-area: start;
+
+    align-items: center;
+    background-color: #262a4c;
+    background-image: linear-gradient(to bottom right,#262a4c,#2f264c);
+    block-size: 6.5rem;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: column;
+    inline-size: 0;
+    min-inline-size: 4.25rem;
+    position: relative;
+}
+
+.top {
+    grid-area: top;
+}
+
+.jail {
+    border-top-right-radius: 0.5em;
+    grid-area: jail;
+}
+
+.left {
+    flex-direction: column-reverse;
+    grid-area: left;
+}
+.center {
+    background: #130f1d;
+    border-radius: 0.5em;
+    box-shadow: 0 0 0 0.5em #130f1d;
+    box-sizing: border-box;
+    display: flex;
+    grid-area: center;
+    min-height: 38.25rem;
+    min-width: 38.25rem;
+    padding: calc(1em + 1rem);
+    position: relative;
+}
+.right {
+    backface-visibility: hidden;
+    flex-direction: column;
+    grid-area: right;
+}
+
+.gotojail {
+    border-bottom-left-radius: 0.5em;
+    grid-area: gotojail;
+}
+
+.bottom {
+    flex-direction: row-reverse;
+    grid-area: bottom;
+}
+
+.sleep {
+    border-bottom-right-radius: 0.5em;
+    grid-area: sleep;
+}
+

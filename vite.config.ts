@@ -1,9 +1,12 @@
-import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from 'vite';
+import solidPlugin from 'vite-plugin-solid';
 
 export default defineConfig({
-	plugins: [sveltekit()],
-	test: {
-		include: ['src/**/*.{test,spec}.{js,ts}']
-	}
+  plugins: [solidPlugin()],
+  server: {
+    port: 3000,
+  },
+  build: {
+    target: 'esnext',
+  },
 });
